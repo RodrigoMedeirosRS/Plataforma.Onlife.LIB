@@ -25,9 +25,9 @@ namespace BibliotecaViva.DTO
         public string Tipo { get; set; }
         public string Conteudo { get; set; }
         public string Descricao { get; set; }
+        public int Latitude { get; set; }
+        public int Longitude { get; set; }
         public DateTime DataInsercao { get; set; }
-        public string Latitude { get; set; }
-        public string Longitude { get; set; } 
         public List<RelacaoDTO> Referencias { get; set; }
 
         public void Dispose()
@@ -38,8 +38,6 @@ namespace BibliotecaViva.DTO
             Tipo = null;
             Conteudo = null;
             Descricao = null;
-            Latitude = null;
-            Longitude = null;
             Desalocador.DesalocarLista<RelacaoDTO>(Referencias);
         }
     }
