@@ -2,9 +2,9 @@ using System;
 
 namespace DTO
 {
-    public class Localidade : BaseDTO, IDisposable
+    public class LocalidadeDTO : BaseDTO, IDisposable
     {
-        public Localidade()
+        public LocalidadeDTO()
         {
             Nome = string.Empty;
             Descricao = string.Empty;
