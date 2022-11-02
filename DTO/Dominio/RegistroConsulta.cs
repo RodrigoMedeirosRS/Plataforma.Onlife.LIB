@@ -1,6 +1,6 @@
 using System;
 
-namespace BibliotecaViva.DTO.Dominio
+namespace DTO.Dominio
 {
     public class RegistroConsulta : IDisposable
     {

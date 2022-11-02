@@ -1,8 +1,8 @@
 using System;
-using BibliotecaViva.DTO.Utils;
-using BibliotecaViva.DTO.Interface;
+using DTO.Utils;
+using DTO.Interface;
 
-namespace BibliotecaViva.DTO
+namespace DTO
 {
     public class TipoDTO : BaseDTO, IDisposable, INomeado
     {

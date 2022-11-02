@@ -1,5 +1,5 @@
 using System;
-namespace BibliotecaViva.DTO.Dominio
+namespace DTO.Dominio
 {
     public class PessoaConsulta : IDisposable
     {

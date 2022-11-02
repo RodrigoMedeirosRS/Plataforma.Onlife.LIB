@@ -1,9 +1,6 @@
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 
-namespace BibliotecaViva.DTO.Dominio
+namespace DTO.Dominio
 {
     public class RelacaoConsulta : IDisposable
     {

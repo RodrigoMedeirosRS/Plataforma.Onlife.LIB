@@ -1,4 +1,4 @@
-namespace BibliotecaViva.DTO.Utils
+namespace DTO.Utils
 {
     public static class TratadorUtil
     {

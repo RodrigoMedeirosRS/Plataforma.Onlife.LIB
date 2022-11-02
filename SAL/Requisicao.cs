@@ -5,10 +5,10 @@ using System.Net;
 using Newtonsoft.Json;
 using RestSharp.Authenticators;
 
-using BibliotecaViva.Utils;
-using BibliotecaViva.SAL.Interface;
+using Utils;
+using SAL.Interface;
 
-namespace BibliotecaViva.SAL
+namespace SAL
 {
     public class Requisicao : IRequisicao, IDisposable
     {

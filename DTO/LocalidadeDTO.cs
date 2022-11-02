@@ -1,6 +1,6 @@
 using System;
 
-namespace BibliotecaViva.DTO
+namespace DTO
 {
     public class Localidade : BaseDTO, IDisposable
     {

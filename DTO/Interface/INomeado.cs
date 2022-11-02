@@ -1,4 +1,4 @@
-namespace BibliotecaViva.DTO.Interface
+namespace DTO.Interface
 {
     public interface INomeado
     {

@@ -1,4 +1,4 @@
-namespace BibliotecaViva.SAL.Interface
+namespace SAL.Interface
 {
     public interface IRequisicao
     {

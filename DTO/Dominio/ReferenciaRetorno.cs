@@ -1,9 +1,9 @@
 using System;
 using System.Collections.Generic;
 
-using BibliotecaViva.DTO;
+using DTO;
 
-namespace BibliotecaViva.DTO.Dominio
+namespace DTO.Dominio
 {
     public class ReferenciaRetorno
     {

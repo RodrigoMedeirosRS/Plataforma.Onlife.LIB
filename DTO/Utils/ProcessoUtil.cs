@@ -1,6 +1,6 @@
 using System.Diagnostics;
 
-namespace BibliotecaViva.Utils
+namespace Utils
 {
     public static class ProcessoUtil
     {

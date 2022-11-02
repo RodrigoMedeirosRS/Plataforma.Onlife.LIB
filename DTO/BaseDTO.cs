@@ -1,4 +1,4 @@
-namespace BibliotecaViva.DTO
+namespace DTO
 {
     public abstract class BaseDTO
     {

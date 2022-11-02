@@ -1,6 +1,6 @@
 using System; 
 
-namespace BibliotecaViva.DTO
+namespace DTO
 {
     public class RelacaoDTO : BaseDTO, IDisposable
     {

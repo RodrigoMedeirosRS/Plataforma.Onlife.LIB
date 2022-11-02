@@ -1,10 +1,10 @@
 using System;
 using System.Collections.Generic;
 
-using BibliotecaViva.DTO.Interface;
-using BibliotecaViva.DTO.Utils;
+using DTO.Interface;
+using DTO.Utils;
 
-namespace BibliotecaViva.DTO
+namespace DTO
 {
     public class PessoaDTO : BaseDTO, IDisposable, INomeado
     {
