@@ -13,8 +13,9 @@ namespace DTO
         public string Nome { get; set;}
         public string Descricao { get; set; }
         public string Mapa { get; set; }
-        public int Latitude { get; set; }
-        public int Longitude { get; set; }
+        public float X { get; set; }
+        public float Y { get; set; }
+        public float Z { get; set; }
 
         public void Dispose()
         {
