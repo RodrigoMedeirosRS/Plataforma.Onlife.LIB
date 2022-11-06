@@ -25,8 +25,8 @@ namespace DTO
         public string Tipo { get; set; }
         public string Conteudo { get; set; }
         public string Descricao { get; set; }
-        public int Latitude { get; set; }
-        public int Longitude { get; set; }
+        public float Latitude { get; set; }
+        public float Longitude { get; set; }
         public DateTime DataInsercao { get; set; }
         public List<RelacaoDTO> Referencias { get; set; }
 
