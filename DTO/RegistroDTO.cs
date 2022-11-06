@@ -27,6 +27,7 @@ namespace DTO
         public string Descricao { get; set; }
         public float Latitude { get; set; }
         public float Longitude { get; set; }
+        public int CodigoCidade { get; set; }
         public DateTime DataInsercao { get; set; }
         public List<RelacaoDTO> Referencias { get; set; }
 
